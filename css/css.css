@@ -423,6 +423,7 @@ footer a:hover {
 }
 
 .foot-tel {
+	margin-left: 45%;
 	margin-bottom: .05rem;
 	color: #999;
 }
@@ -430,7 +431,7 @@ footer a:hover {
 .erweima {
 	position: absolute;
 	top: 0;
-	left: 1.5rem;
+	right: 0;
 	width: .65rem;
 	height: .65rem;
 	background: url(../images/img-6.png) no-repeat center center;
@@ -444,3 +445,24 @@ footer a:hover {
 	text-align: center;
 	color: #fff;
 }
+.mak-cen {
+	width: 2.1rem;
+	margin: 0 auto;
+}
+@media screen and (max-width: 1200px) {
+	.foot-tel {
+	margin-left: 35%;
+}
+}
+@media screen and (max-width: 991px) {
+	.foot-tel {
+	margin-left: 0;
+}
+	.erweima {
+		position: absolute;
+		left: 1.5rem;
+}
+@media screen and (max-width: 767px) {
+	.mak-cen {
+		margin: 0;
+	}
