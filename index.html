@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/jq.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link href="css/css.css" rel="stylesheet">
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<div class="header-top">
+			<div class="container">
+				<div class="row">		
+					<div class="col-sm-6 col-xs-12">
+						<p class="tel">客服热线：010-594-78634</p>
+					</div>		
+					<div class="col-sm-6 col-xs-12">
+						<div class="btngroup">
+							<button>登录</button><button class="active">注册</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-default" role="navigation">
+		    <div class="container">
+		        <ul class="nav navbar-nav">
+		            <li><a href="#" class="active-2">首页</a></li>
+		            <li><a href="#" style="color:#000">在线定制</a></li>
+		            <li><a href="#" style="color:#000">标准箱</a></li>
+		            <li><a href="#" style="color:#000">品质保障</a></li>
+		        </ul>
+		    </div>
+		</nav>
+	</header>
+	<main>
+		<div class="container">
+			<div class="progress_bar">	
+				<div class="progress-1">	
+					<div class="pro">
+						<div class="pro-acr active-3"></div>
+						<div class="pro-cir active-3">1</div>
+					</div>
+					<p class="active-3-font">1.定制纸箱</p>
+				</div>
+				<div class="progress-1">	
+					<div class="pro">
+						<div class="pro-acr"></div>
+						<div class="pro-cir">2</div>
+					</div>
+					<p>2.选择数量</p>
+				</div>
+				<div class="progress-1 ">	
+					<div class="pro">
+						<div class="pro-acr"></div>
+						<div class="pro-cir">3</div>
+					</div>
+					<p>3.上传附件</p>
+				</div>
+				<div class="progress-1">	
+					<div class="pro">
+						<div class="pro-acr"></div>
+						<div class="pro-cir">4</div>
+					</div>
+					<p>4.确认下单</p>
+				</div>
+			</div>
+			<form>
+				<ul>
+					<li class="form-title">请您按照以下步骤来定制您的纸箱</li>
+					<li class="select-type">选择箱型</li>
+					<li class="select-box" style="position: relative ;padding-left:15px">	
+					
+						<div class="col-sm-2 wd">		
+							<input name="box" id="box" type="radio" checked="checked"><label name="box" class="checked" for="box">对口箱</label>
+						</div>
+						<div class="col-sm-2 wd">
+							<input name="box" id="box2" type="radio"><label name="box" for="box2">飞机盒</label>
+						</div>
+						<div class="col-sm-2 wd">
+							<input name="box" id="box3" type="radio"><label name="box" for="box3">天地盖</label>
+						</div>
+						<div class="col-sm-4 pos-1">	
+							<div class="select">
+								<select>
+									<option>查看详情</option>
+									<option>盒子一</option>
+									<option>盒子一</option>
+									<option>盒子一</option>
+								</select>
+							</div>
+						</div>
+					</li>
+					<li class="clear"></li>
+					<li class="select-dim">确定尺寸</li>	
+					<li class="select-box-2" style="padding:0 15px">
+						<div class="row" style="padding:0 15px">
+							<div class="col-sm-2 wd">
+								<input name="dim" id="od" type="radio" checked><label name="dim" for="od">外径</label>
+							</div>
+							<div class="col-sm-2 wd" style="padding-right:0">
+								长 <input name="dim" type="text"> mm
+							</div>
+							<div class="col-sm-2 wd" style="padding-right:0">
+								宽 <input name="dim" type="text"> mm
+							</div>
+							<div class="col-sm-2 wd" style="padding-right:0">
+								高 <input name="dim" type="text"> mm
+							</div>
+						</div>
+						<div class="row" style="padding:0 15px">
+							<div class="col-sm-2 wd"> 
+								<input name="dim" id="ind" type="radio"><label name="dim" for="ind">内径</label>
+							</div>
+							<div class="col-sm-2 wd" style="padding-right:0">
+								长 <input name="dim" type="text"> mm
+							</div>
+							<div class="col-sm-2 wd" style="padding-right:0">
+								宽 <input name="dim" type="text"> mm
+							</div>
+							<div class="col-sm-2 wd" style="padding-right:0">
+								高 <input name="dim" type="text"> mm
+							</div>
+						</div>
+						<div class="col-sm-4 col-sm-offset-8">
+							<div class="select">
+								<select class="select pos">
+									<option>查看详情</option>
+									<option>盒子一</option>
+									<option>盒子一</option>
+									<option>盒子一</option>
+								</select>
+							</div>
+						</div>
+					</li>
+					<li class="select-texture">选择材质</li>
+					<li class="select-box" style="padding:0 15px;position:relative">	
+						<div class="col-sm-2 wd">		
+							<input name="texture" id="texture1" type="radio" checked="checked"><label name="texture" for="texture1">三层A瓦优质</label>
+						</div>
+						<div class="col-sm-2 wd">
+							<input name="texture" id="texture2" type="radio"><label name="texture" for="texture2">三层A瓦优质</label>
+						</div>
+						<div class="col-sm-2 wd">
+							<input name="texture" id="texture3" type="radio"><label name="texture" for="texture3">三层A瓦优质</label>
+						</div>
+						<div class="col-sm-2 wd">		
+							<input name="texture" id="texture4" type="radio"><label name="texture" for="texture4">三层A瓦优质</label>
+						</div>
+						<div class="col-sm-2 wd">
+							<input name="texture" id="texture5" type="radio"><label name="texture" for="texture5">三层A瓦优质</label>
+						</div>	
+							<div class="select pos-2">
+								<select>
+									<option>查看详情</option>
+									<option>盒子一</option>
+									<option>盒子一</option>
+									<option>盒子一</option>
+								</select>
+							</div>
+						<div class="clear"></div>
+					</li>
+				</ul>
+				<button class="next">下一步</button>
+			</form>
+		</div>
+	</main>
+	<footer>
+		<div class="container">
+				<div class="col-md-4 col-sm-6">
+					<p class="foot-title" style="margin-top:.3rem">51包装网—纸箱包装首选服务平台</p>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="row" style="margin:.3rem 0">
+						<a href="#" class="active-font">关于我们</a>
+						<a href="#">配送流程</a>
+						<a href="#" style="margin-right:0">联系我们</a>
+					</div>
+					<div class="row" style="margin:.3rem 0">
+						<a href="#">下单指南</a>
+						<a href="#">媒体介绍</a>
+					</div>
+				</div>
+			<div class="col-md-4 col-sm-6" style="margin-top:.3rem">
+					<p class="foot-tel">Tel:400-0000-000</p>
+					<p class="foot-tel">企业QQ:123456789</p>
+					<p class="foot-tel">微信号:XXXXXXXX</p>
+					<div class="erweima"></div>
+				</div>
+			</div>
+		</div>
+		<div class="foot-bottom">
+			<p>北京五一包装科技有限公司Copyright ©2015&nbsp;&nbsp;&nbsp;51baozhuang.com015&nbsp;&nbsp;ALL rights reserved. 京Icp备99999-1</p>
+		</div>
+	</footer>
+</body>
+</html>
