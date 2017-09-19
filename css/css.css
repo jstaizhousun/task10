@@ -300,6 +300,11 @@ input[type="text"] {
   	height: .2rem;
   	margin: 0 .01rem;
   	outline: none;
+  	text-decoration: none;
+}
+input[type="text"]:hover {
+	outline: none;
+	text-decoration: none;
 }
 
 .select-box-2 {
